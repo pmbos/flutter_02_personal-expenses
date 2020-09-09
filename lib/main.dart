@@ -115,7 +115,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           //mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
-            //Should contain the chart of past expenses
             Chart(_recentTransactions),
             TransactionList(_userTransactions),
           ],
