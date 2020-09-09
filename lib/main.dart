@@ -53,14 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final titleController = TextEditingController();
   final amountController = TextEditingController();
 
-  final List<Transaction> _userTransactions = [
-    // Transaction(
-    //   id: '1',
-    //   amount: 20.00,
-    //   title: 'first-test',
-    //   createdAt: DateTime.now(),
-    // ),
-  ];
+  final List<Transaction> _userTransactions = [];
 
   List<Transaction> get _recentTransactions {
     return _userTransactions
