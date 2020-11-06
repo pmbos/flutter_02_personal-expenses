@@ -5,7 +5,9 @@ class ChartBar extends StatelessWidget {
   final double spendings;
   final double percentageOfTotalSpendings;
 
-  ChartBar(this.label, this.spendings, this.percentageOfTotalSpendings);
+  //Const constructors allow you to prevent rebuilding for items that do not
+  //change after creation.
+  const ChartBar(this.label, this.spendings, this.percentageOfTotalSpendings);
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
